@@ -3,6 +3,8 @@ xpl0it3r is a multi-purpose CLI tool that is used for port scanning and subdomai
 
 ![xpl0it3r](https://github.com/ArmandtErasmus/xpl0it3r/blob/main/assets/xpl0it3r.png 'xpl0it3r')
 
+---
+
 ### Table of Contents
 1. [Introduction](#1.-Introduction)
 2. [Features](#2.-Features)
@@ -12,11 +14,15 @@ xpl0it3r is a multi-purpose CLI tool that is used for port scanning and subdomai
 6. [Contributing](#6.Contributing)
 7. [License](#7.License)
 
+---
+
 ### 1. Introduction
 
 xpl0it3r is a comprehensive multi-purpose CLI (Command Line Interface) tool designed for cybersecurity enthusiasts and professionals. It combines functionalities of port scanning (Porty) and subdomain enumeration (Subby) into a unified interface, offering seamless interaction and flexibility.
 
 This tool is built in Python and utilizes various libraries such as pyfiglet, colorama, and requests. It provides a simple and intuitive way to perform security assessments by scanning ports and discovering subdomains for a target.
+
+---
 
 ### 2. Features
 
@@ -27,6 +33,8 @@ This tool is built in Python and utilizes various libraries such as pyfiglet, co
 - Subdomain Enumerator (Subby):
   - Enumerate subdomains for a given domain using a wordlist.
   - Fetch HTTP status codes for discovered subdomains.
+
+---
  
 ### 3. Installation
 
@@ -56,6 +64,8 @@ pip install colorama pyfiglet requests
    pip install -r requirements.txt
    ```
 
+---
+
 ### 4. Usage
 
 After installation, you can run the tool using:
@@ -63,6 +73,8 @@ After installation, you can run the tool using:
     python xpl0it3r.py
     ```
 You will be greeted with a tool menu that allows you to choose between Porty and Subby functionalities.  
+
+---
 
 ### 5. Arguments and Options
 
@@ -94,6 +106,8 @@ Example command:
   ```
   subby example.com -w /path/to/file/subdomains.txt
   ```
+---
+
 ### 6. Contributing
 Contributions to xpl0it3r are welcome! If you encounter bugs or would like to add new features, please feel free to submit issues or pull requests.
 
@@ -103,6 +117,8 @@ Contributions to xpl0it3r are welcome! If you encounter bugs or would like to ad
 3. Make changes and commit (git commit -m 'Add some feature').
 4. Push changes (git push origin feature-branch).
 5. Submit a pull request.
+
+---
 
 ### 7. License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/ArmandtErasmus/xpl0it3r/blob/main/LICENSE) file for more details.
