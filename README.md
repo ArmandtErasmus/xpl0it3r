@@ -1,6 +1,8 @@
 # xpl0it3r: A Comprehensive Guide
 xpl0it3r is a multi-purpose CLI tool that is used for port scanning and subdomain enumeration.
 
+![xpl0it3r](https://github.com/ArmandtErasmus/xpl0it3r/blob/main/assets/xpl0it3r.png 'xpl0it3r')
+
 ### Table of Contents
 1. [Introduction](#1.-Introduction)
 2. [Features](#2.-Features)
